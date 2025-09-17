@@ -11,10 +11,6 @@
 ## 📦 セットアップ方法
 
 ```bash
-# clone
-git clone https://github.com/yourname/portfolio.git
-cd portfolio
-
 # install
 npm install
 
