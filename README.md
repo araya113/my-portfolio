@@ -7,7 +7,6 @@
 ## 🚀 プレビュー
 
 - [公開サイト](https://your-portfolio-url.com)
-- [GitHubリポジトリ](https://github.com/yourname/portfolio)
 
 ## 📦 セットアップ方法
 
