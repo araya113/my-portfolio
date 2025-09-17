@@ -1,45 +1,27 @@
-# my-portfolio
+# Yamato Araya Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+フルスタックエンジニア **新谷 大和 (Yamato Araya)** のポートフォリオサイトです。  
+これまで参加したプロジェクト、対応可能な技術スタック、個人制作作品をまとめています。  
+サイトは **Vue 3 (Composition API) + TypeScript + Tailwind CSS** を用いて構築しています。
 
-## Recommended IDE Setup
+## 🚀 プレビュー
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [公開サイト](https://your-portfolio-url.com)
+- [GitHubリポジトリ](https://github.com/yourname/portfolio)
 
-## Type Support for `.vue` Imports in TS
+## 📦 セットアップ方法
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+```bash
+# clone
+git clone https://github.com/yourname/portfolio.git
+cd portfolio
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+# install
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# dev
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# build
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
