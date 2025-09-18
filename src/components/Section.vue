@@ -3,13 +3,15 @@ defineProps<{ id?: string; title: string; subtitle?: string }>()
 </script>
 
 <template>
-  <section :id="id" class="py-20 max-w-6xl mx-auto px-6">
-    <div class="text-center mb-16">
-      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h2>
-      <p v-if="subtitle" class="text-lg text-gray-600 max-w-2xl mx-auto">{{ subtitle }}</p>
-      <div class="mt-6 flex justify-center">
-        <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
-      </div>
+  <section :id="id" class="py-24 max-w-5xl mx-auto px-8">
+    <div class="text-center mb-20">
+      <h2 class="text-4xl md:text-6xl font-light text-gray-900 mb-6 tracking-tight">{{ title }}</h2>
+      <p
+        v-if="subtitle"
+        class="text-xl text-gray-600 max-w-3xl mx-auto font-light tracking-wide leading-relaxed"
+      >
+        {{ subtitle }}
+      </p>
     </div>
     <div>
       <slot />
@@ -28,8 +30,8 @@ section:not(:first-child)::before {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 80%;
   height: 1px;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.06), transparent);
 }
 </style>
