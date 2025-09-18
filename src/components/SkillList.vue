@@ -13,7 +13,7 @@ const renderStars = (level: number) => {
 
 // 星評価の説明
 const skillLevels = [
-  { level: 5, description: '実務経験豊富・指導可能' },
+  { level: 5, description: '実務経験豊富' },
   { level: 4, description: '実務レベル・自立して開発可能' },
   { level: 3, description: '基本的な実装が可能' },
   { level: 2, description: '簡単なタスクに対応可能' },
